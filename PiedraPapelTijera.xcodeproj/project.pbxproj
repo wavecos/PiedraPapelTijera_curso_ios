@@ -21,6 +21,10 @@
 		804148C717EDF7B700659DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804148A917EDF7B700659DB5 /* UIKit.framework */; };
 		804148CF17EDF7B700659DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804148CD17EDF7B700659DB5 /* InfoPlist.strings */; };
 		804148D117EDF7B700659DB5 /* PiedraPapelTijeraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 804148D017EDF7B700659DB5 /* PiedraPapelTijeraTests.m */; };
+		804148DC17EDF84D00659DB5 /* Jugada.m in Sources */ = {isa = PBXBuildFile; fileRef = 804148DB17EDF84D00659DB5 /* Jugada.m */; };
+		804148E017EDFD7A00659DB5 /* papel.png in Resources */ = {isa = PBXBuildFile; fileRef = 804148DD17EDFD7A00659DB5 /* papel.png */; };
+		804148E117EDFD7A00659DB5 /* piedra.png in Resources */ = {isa = PBXBuildFile; fileRef = 804148DE17EDFD7A00659DB5 /* piedra.png */; };
+		804148E217EDFD7A00659DB5 /* tijera.png in Resources */ = {isa = PBXBuildFile; fileRef = 804148DF17EDFD7A00659DB5 /* tijera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		804148CC17EDF7B700659DB5 /* PiedraPapelTijeraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PiedraPapelTijeraTests-Info.plist"; sourceTree = "<group>"; };
 		804148CE17EDF7B700659DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		804148D017EDF7B700659DB5 /* PiedraPapelTijeraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiedraPapelTijeraTests.m; sourceTree = "<group>"; };
+		804148DA17EDF84D00659DB5 /* Jugada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugada.h; sourceTree = "<group>"; };
+		804148DB17EDF84D00659DB5 /* Jugada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugada.m; sourceTree = "<group>"; };
+		804148DD17EDFD7A00659DB5 /* papel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = papel.png; sourceTree = "<group>"; };
+		804148DE17EDFD7A00659DB5 /* piedra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piedra.png; sourceTree = "<group>"; };
+		804148DF17EDFD7A00659DB5 /* tijera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijera.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,9 @@
 		804148AB17EDF7B700659DB5 /* PiedraPapelTijera */ = {
 			isa = PBXGroup;
 			children = (
+				804148DD17EDFD7A00659DB5 /* papel.png */,
+				804148DE17EDFD7A00659DB5 /* piedra.png */,
+				804148DF17EDFD7A00659DB5 /* tijera.png */,
 				804148B417EDF7B700659DB5 /* AppDelegate.h */,
 				804148B517EDF7B700659DB5 /* AppDelegate.m */,
 				804148B717EDF7B700659DB5 /* Main.storyboard */,
@@ -119,6 +131,8 @@
 				804148BB17EDF7B700659DB5 /* ViewController.m */,
 				804148BD17EDF7B700659DB5 /* Images.xcassets */,
 				804148AC17EDF7B700659DB5 /* Supporting Files */,
+				804148DA17EDF84D00659DB5 /* Jugada.h */,
+				804148DB17EDF84D00659DB5 /* Jugada.m */,
 			);
 			path = PiedraPapelTijera;
 			sourceTree = "<group>";
@@ -228,8 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804148E117EDFD7A00659DB5 /* piedra.png in Resources */,
 				804148BE17EDF7B700659DB5 /* Images.xcassets in Resources */,
+				804148E217EDFD7A00659DB5 /* tijera.png in Resources */,
 				804148B017EDF7B700659DB5 /* InfoPlist.strings in Resources */,
+				804148E017EDFD7A00659DB5 /* papel.png in Resources */,
 				804148B917EDF7B700659DB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +269,7 @@
 				804148BC17EDF7B700659DB5 /* ViewController.m in Sources */,
 				804148B617EDF7B700659DB5 /* AppDelegate.m in Sources */,
 				804148B217EDF7B700659DB5 /* main.m in Sources */,
+				804148DC17EDF84D00659DB5 /* Jugada.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
